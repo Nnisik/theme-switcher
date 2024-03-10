@@ -54,3 +54,108 @@
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.theme-switchers {
+    display: flex;
+    gap: 24px;
+}
+
+.theme-switchers div {
+    border: 2px solid var(--theme-color);
+    margin: 10px 0;
+    position: relative;
+    padding: 5px 20px;
+}
+
+.theme-switchers input {
+    position: absolute;
+    z-index: -1;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transform: translate(5px, -5px);
+    opacity: 0;
+}
+
+.theme-switchers label {
+    font-size: 20px;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main::before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-left: 3px solid var(--acsent-color);
+    border-bottom: 3px solid var(--acsent-color);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.main::after {
+    content: "REC *";
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-top: 3px solid var(--acsent-color);
+    border-right: 3px solid var(--acsent-color);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--acsent-color);
+    font-size: 18px;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-80%);
+    font-size: 40vh;
+    font-weight: bold;
+    color: var(--acsent-color);
+}
+
+.title::before {
+    content: "no focus";
+    position: absolute;
+    top: 81%;
+    left: 5px;
+    transform: translateY(-80%);
+    color: var(--theme-color);
+    z-index: -1;
+    width: fit-content;
+    font-size: 40vh;
+}
+
+.main_sub-text {
+    background: var(--theme-color);
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    bottom: 15%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main_sub-text p {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
