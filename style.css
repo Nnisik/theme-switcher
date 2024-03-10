@@ -1,0 +1,56 @@
+:root {
+    /* ligth mode */
+    --light-text: #222430;
+    --light-bg: #f7f7f7;
+    --light-theme: #d2a5fd;
+    --light-acsent: #7380f5;
+
+    /* dark mode */
+    --dark-text: #f7f7f7;
+    --dark-bg: #222430;
+    --dark-theme: #d6ffec;
+    --dark-acsent: #bdff97;
+    
+    /* neon mode */
+    --neon-text: #28ff69;
+    --dark-bg: #222430;
+    --neon-theme: #00ff4c;
+    --neon-acsent: #fffb2c;
+
+    /* default mode*/
+    --text-color: var(--light-text);
+    --bg-color: var(--light-bg);
+    --theme-color: var(--light-theme);
+    --acsent-color: var(--light-acsent);
+}
+
+#switchDay:checked ~ #page {
+    --text-color: var(--light-text);
+    --bg-color: var(--light-bg);
+    --theme-color: var(--light-theme);
+    --acsent-color: var(--light-acsent);
+}
+
+#switchNigth:checked ~ #page {
+    --text-color: var(--dark-text);
+    --bg-color: var(--dark-bg);
+    --theme-color: var(--dark-theme);
+    --acsent-color: var(--dark-acsent);
+}
+
+#switchNeon:checked ~ #page {
+    --text-color: var(--neon-text);
+    --bg-color: var(--neon-bg);
+    --theme-color: var(--neon-theme);
+    --acsent-color: var(--neon-acsent);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
