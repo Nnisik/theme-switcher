@@ -4,33 +4,33 @@
     --light-bg: #f7f7f7;
     --light-theme: #d2a5fd;
     --light-acsent: #7380f5;
-    --light-img-1: url("./maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg");
-    --light-img-2: url("./kobu-agency-3hWg9QKl5k8-unsplash.jpg");
-    --light-img-3: url("./tyler-nix-VZEj0iepzKA-unsplash.jpg");
-    --light-img-4: url("./monika-grabkowska-TAj4X5-eRqE-unsplash.jpg");
-    --light-img-5: url("./toa-heftiba-DakDfhDHMSA-unsplash.jpg");
+    --light-img-1: url("./assets/img/ligth-mode/maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg");
+    --light-img-2: url("./assets/img/ligth-mode/kobu-agency-3hWg9QKl5k8-unsplash.jpg");
+    --light-img-3: url("./assets/img/ligth-mode/tyler-nix-VZEj0iepzKA-unsplash.jpg");
+    --light-img-4: url("./assets/img/ligth-mode/monika-grabkowska-TAj4X5-eRqE-unsplash.jpg");
+    --light-img-5: url("./assets/img/ligth-mode/toa-heftiba-DakDfhDHMSA-unsplash.jpg");
 
     /* dark  mode */
     --dark-text: #f7f7f7;
     --dark-bg: #222430;
     --dark-theme: #d6ffec;
     --dark-acsent: #bdff97;
-    --dark-img-1: url("./szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
-    --dark-img-2: url("./kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg");
-    --dark-img-3: url("./tri-vo-R2rfHmSsh0M-unsplash.jpg");
-    --dark-img-4: url("./dose-juice-sTPy-oeA3h0-unsplash.jpg");
-    --dark-img-5: url("./alabaster-co-UtRyYXcbK6A-unsplash.jpg");
+    --dark-img-1: url("./assets/img/dark-theme/szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
+    --dark-img-2: url("./assets/img/dark-theme/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg");
+    --dark-img-3: url("./assets/img/dark-theme/tri-vo-R2rfHmSsh0M-unsplash.jpg");
+    --dark-img-4: url("./assets/img/dark-theme/dose-juice-sTPy-oeA3h0-unsplash.jpg");
+    --dark-img-5: url("./assets/img/dark-theme/alabaster-co-UtRyYXcbK6A-unsplash.jpg");
 
     /* neon  mode */
     --neon-text: #28ff69;
     --dark-bg: #222430;
     --neon-theme: #00ff4c;
     --neon-acsent: #fffb2c;
-    --neon-img-1: url("./daniel-apodaca-NwCIEX2UIL0-unsplash.jpg");
-    --neon-img-2: url("./jordan-mcdonald-xLG3BBiuT1Q-unsplash.jpg");
-    --neon-img-3: url("./trail-5yOnGsKUNGw-unsplash.jpg");
-    --neon-img-4: url("./dose-juice-Zvha13RXnZY-unsplash.jpg");
-    --neon-img-5: url("./asterisk-kwon-q_gjDWf9ths-unsplash.jpg");
+    --neon-img-1: url("./assets/img/neon-theme/daniel-apodaca-NwCIEX2UIL0-unsplash.jpg");
+    --neon-img-2: url("./assets/img/neon-theme/jordan-mcdonald-xLG3BBiuT1Q-unsplash.jpg");
+    --neon-img-3: url("./assets/img/neon-theme/trail-5yOnGsKUNGw-unsplash.jpg");
+    --neon-img-4: url("./assets/img/neon-theme/dose-juice-Zvha13RXnZY-unsplash.jpg");
+    --neon-img-5: url("./assets/img/neon-theme/asterisk-kwon-q_gjDWf9ths-unsplash.jpg");
 
     /* default theme */
     --text-color: var(--light-text);
