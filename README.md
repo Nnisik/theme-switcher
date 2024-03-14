@@ -7,3 +7,4 @@ Stress releaf and consentration boost advises web page with different themes.
 
 ## Todo
 * add theme switching functionality
+* add nice grid for image section
