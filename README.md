@@ -6,4 +6,4 @@ Stress releaf and consentration boost advises web page with different themes.
 * CSS
 
 ## Todo
-* theme switching functionality
+* add theme switching functionality
