@@ -1,0 +1,90 @@
+@media (max-width: 431px){
+    #page {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+        height: 97vh;
+    }
+
+    .title {
+        font-size: 13vh;
+        top: 50%;
+    }
+
+    .title::before {
+        font-size: 13vh;
+    }
+
+    .main_sub-text {
+        width: 56%;
+        bottom: 18%;
+        right: 18px;
+    }
+
+    .main_sub-text p {
+        font-size: 2vh;
+        letter-spacing: 2px;
+    }
+
+    .reasons,
+    .whys,
+    .advices {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reasons > h2,
+    .whys > h2,
+    .advices > h2 {
+        width: 95%;
+        margin-bottom: 1vh;
+        font-size: 3vh;
+        color: var(--theme-color);
+    } 
+
+    .reasons-container,
+    .whys-container,
+    .advices-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 0 auto;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .marked-text {
+        font-size: 16px;
+    }
+
+    .images {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .footer-title {
+        font-size: 13vh;
+    }
+
+    .footer-title::before {
+        font-size: 13vh;
+    }
+}
