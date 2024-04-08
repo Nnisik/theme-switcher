@@ -1,9 +1,5 @@
 :root {
     /* ligth  mode */
-    --light-text: #222430;
-    --light-bg: #f7f7f7;
-    --light-theme: #d2a5fd;
-    --light-acsent: #7380f5;
     --light-img-1: url("./assets/img/ligth-mode/maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg");
     --light-img-2: url("./assets/img/ligth-mode/kobu-agency-3hWg9QKl5k8-unsplash.jpg");
     --light-img-3: url("./assets/img/ligth-mode/tyler-nix-VZEj0iepzKA-unsplash.jpg");
@@ -11,10 +7,6 @@
     --light-img-5: url("./assets/img/ligth-mode/toa-heftiba-DakDfhDHMSA-unsplash.jpg");
 
     /* dark  mode */
-    --dark-text: #f7f7f7;
-    --dark-bg: #222430;
-    --dark-theme: #d6ffec;
-    --dark-acsent: #bdff97;
     --dark-img-1: url("./assets/img/dark-theme/szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
     --dark-img-2: url("./assets/img/dark-theme/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg");
     --dark-img-3: url("./assets/img/dark-theme/tri-vo-R2rfHmSsh0M-unsplash.jpg");
@@ -22,10 +14,6 @@
     --dark-img-5: url("./assets/img/dark-theme/alabaster-co-UtRyYXcbK6A-unsplash.jpg");
 
     /* neon  mode */
-    --neon-text: #28ff69;
-    --dark-bg: #222430;
-    --neon-theme: #00ff4c;
-    --neon-acsent: #fffb2c;
     --neon-img-1: url("./assets/img/neon-theme/daniel-apodaca-NwCIEX2UIL0-unsplash.jpg");
     --neon-img-2: url("./assets/img/neon-theme/jordan-mcdonald-xLG3BBiuT1Q-unsplash.jpg");
     --neon-img-3: url("./assets/img/neon-theme/trail-5yOnGsKUNGw-unsplash.jpg");
@@ -33,10 +21,11 @@
     --neon-img-5: url("./assets/img/neon-theme/asterisk-kwon-q_gjDWf9ths-unsplash.jpg");
 
     /* default theme */
-    --text-color: var(--light-text);
-    --bg-color: var(--light-bg);
-    --theme-color: var(--light-theme);
-    --acsent-color: var(--light-acsent);
+    --text-color: #222430;
+    --bg-color: #f7f7f7;
+    --theme-color: #d2a5fd;
+    --acsent-color: #7380f5;
+
     --img-1: var(--light-img-1);
     --img-2: var(--light-img-2);
     --img-3: var(--light-img-3);
@@ -44,53 +33,13 @@
     --img-5: var(--light-img-5);
 }
 
-/*
-.theme-switch__input:checked ~ #app {
-	--text-color: var(--dark-text);
-    --bg-color: var(--dark-bg);
-    --theme-color: var(--dark-theme);
-    --acsent-color: var(--dark-acsent);
-    --img-1: var(--dark-img-1);
-    --img-2: var(--dark-img-2);
-    --img-3: var(--dark-img-3);
-    --img-4: var(--dark-img-4);
-    --img-5: var(--dark-img-5);
-}
-.theme-switcher:checked ~ #page {
-    --text-color: var(--light-text);
-    --bg-color: var(--light-bg);
-    --theme-color: var(--light-theme);
-    --acsent-color: var(--light-acsent);
-    --img-1: var(--neon-img-1);
-    --img-2: var(--neon-img-2);
-    --img-3: var(--neon-img-3);
-    --img-4: var(--neon-img-4);
-    --img-5: var(--neon-img-5);
-}
-
-#switchNigth:checked ~ #page {
-    --text-color: var(--dark-text);
-    --bg-color: var(--dark-bg);
-    --theme-color: var(--dark-theme);
-    --acsent-color: var(--dark-acsent);
-}
-
-#switchNeon:checked ~ #page {
-    --text-color: var(--neon-text);
-    --bg-color: var(--neon-bg);
-    --theme-color: var(--neon-theme);
-    --acsent-color: var(--neon-acsent);
-}
-*/
-
-
 * {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans";
 }
 
-#app {
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -104,14 +53,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
-/*
-#page {
-    background: paleturquoise;
-    color: blue;
+.theme-switch-btn {
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 5px;
+    background: var(--acsent-color);
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    cursor: pointer;
 }
-*/
+
+.theme-switch-btn:hover {
+    background: var(--theme-color);
+}
 
 .main {
     height: 100vh;
