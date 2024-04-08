@@ -5,3 +5,6 @@ Stress releaf and consentration boost advises web page with different themes.
 * HTML
 * CSS
 * JavaScript
+
+### Issues
+* them switching buttons does't efffect on anything yet (even hovering)
