@@ -7,4 +7,4 @@ Stress releaf and consentration boost advises web page with different themes.
 * JavaScript
 
 ### Issues
-* them switching buttons does't efffect on anything yet (even hovering)
+* some text is hard to read (modify color pallete)

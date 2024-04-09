@@ -44,10 +44,14 @@ body {
     color: var(--text-color);
 }
 
-.theme-switcher {
+header {
     position: absolute;
+    height: fit-content;
+    z-index: 1000;
+}
+
+.theme-switcher {
     width: 100%;
-    height: 5vh;
     top: 0;
     left: 0;
     display: flex;
@@ -65,7 +69,7 @@ body {
     background: var(--acsent-color);
     border: none;
     outline: none;
-    color: var(--text-color);
+    color: var(--bg-color);
     cursor: pointer;
 }
 
@@ -143,6 +147,7 @@ body {
 .main_sub-text p {
     font-size: 30px;
     letter-spacing: 2px;
+    color: #222430;
 }
 
 .reasons,
@@ -158,7 +163,7 @@ body {
     width: 35%;
     height: fit-content;
     font-size: 30px;
-    color: var(--theme-color);
+    color: var(--bg-color);
     padding-left: 12px;
     letter-spacing: 2px;
 }
@@ -178,13 +183,14 @@ body {
 
 .header {
     font-size: 22px;
-    background: var(--theme-color);
+    color: var(--acsent-color);
 }
 
 .text {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 2px;
+    color: var(--text-color);
 }
 
 .marked-text {
@@ -203,7 +209,7 @@ body {
     height: fit-content;
     width: 40%;
     font-size: 30px;
-    color: var(--theme-color);
+    color: var(--bg-color);
     padding-left: 12px;
     letter-spacing: 2px;
 }
