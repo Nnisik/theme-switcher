@@ -163,7 +163,7 @@ header {
     width: 35%;
     height: fit-content;
     font-size: 30px;
-    color: var(--bg-color);
+    color: var(--acsent-color);
     padding-left: 12px;
     letter-spacing: 2px;
 }
