@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+    .theme-switcher {
+        gap: 1vh;
+        transform: translate(-10px, -2px);
+    }
+    .theme-switch-btn {
+        font-size: 16px;
+        height: fit-content;
+        width: 80px;
+    }
+    .title,
+    .title::before {
+        font-size: 15vh;
+    }
+    .main_sub-text {
+        width: 300px;
+        transform: translate(-15px, 105px);
+    }
+    .main_sub-text p {
+        font-size: 20px;
+    }
+    .reasons {
+        flex-direction: column;
+    }
+    .reasons h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .reasons-container {
+        gap: 10px;
+        margin: 10px;
+    }
+    .reasons-container .reason {
+        width: 400px;
+        margin: 10px 0;
+    }
+}
