@@ -51,11 +51,8 @@ To get a local copy of this project up and running, follow these steps:
 ### Todo
 * remember currently selected theme after reloading page
 * set default page theme based on system theme
-* optimise theme switching (reduse loading  time)
-* optimise fonts not to overlap 
+* optimise theme switching (reduse loading time)
 * speed up theme changing 
 
 ### Issues
-* on smaller screens elements overlap each other (not super serious but still)
-    * on main subtext element is on top of section title
-* for dark and neon theme some text is unreadable
+*currently everything is fixed
