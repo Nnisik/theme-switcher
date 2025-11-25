@@ -1,0 +1,41 @@
+{
+    "light": {
+        "textColor": "#222430",
+        "backgroundColor": "#f7f7f7",
+        "themeColor": "#d2a5fd",
+        "acsentColor": "#7380f5",
+        "images": [
+            "-theme/kobu-agency-3hWg9QKl5k8-unsplash.jpg",
+            "-theme/toa-heftiba-DakDfhDHMSA-unsplash.jpg",
+            "-theme/tyler-nix-VZEj0iepzKA-unsplash.jpg",
+            "-theme/monika-grabkowska-TAj4X5-eRqE-unsplash.jpg",
+            "-theme/maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg"
+        ]
+    },
+    "dark": {
+        "textColor": "#f7f7f7",
+        "backgroundColor": "#222430",
+        "themeColor": "#d6ffec",
+        "acsentColor": "#bdff97",
+        "images": [
+            "-theme/dose-juice-sTPy-oeA3h0-unsplash.jpg",
+            "-theme/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg",
+            "-theme/alabaster-co-UtRyYXcbK6A-unsplash.jpg",
+            "-theme/szabo-viktor-28ZbKOWiZfs-unsplash.jpg",
+            "-theme/tri-vo-R2rfHmSsh0M-unsplash.jpg"
+        ]
+    }, 
+    "neon": {
+        "textColor": "#28ff69",
+        "backgroundColor": "#222430",
+        "themeColor": "#00ff4c",
+        "acsentColor": "#fffb2c",
+        "images": [
+            "-theme/trail-5yOnGsKUNGw-unsplash.jpg",
+            "-theme/daniel-apodaca-NwCIEX2UIL0-unsplash.jpg",
+            "-theme/jordan-mcdonald-xLG3BBiuT1Q-unsplash.jpg",
+            "-theme/dose-juice-Zvha13RXnZY-unsplash.jpg",
+            "-theme/asterisk-kwon-q_gjDWf9ths-unsplash.jpg"
+        ]
+    }
+}
