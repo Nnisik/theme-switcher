@@ -10,6 +10,8 @@ function setLigthTheme() {
     document.getElementById("img-3").src = "./assets/images/ligth-theme/tyler-nix-VZEj0iepzKA-unsplash.jpg";
     document.getElementById("img-4").src = "./assets/images/ligth-theme/monika-grabkowska-TAj4X5-eRqE-unsplash.jpg";
     document.getElementById("img-5").src = "./assets/images/ligth-theme/maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg";
+
+    localStorage.setItem('theme', 'light');
 }
 
 function setDarkTheme() {
@@ -24,6 +26,8 @@ function setDarkTheme() {
     document.getElementById("img-3").src = "./assets/images/dark-theme/alabaster-co-UtRyYXcbK6A-unsplash.jpg";
     document.getElementById("img-4").src = "./assets/images/dark-theme/szabo-viktor-28ZbKOWiZfs-unsplash.jpg";
     document.getElementById("img-5").src = "./assets/images/dark-theme/tri-vo-R2rfHmSsh0M-unsplash.jpg";
+
+    localStorage.setItem('theme', 'dark');
 }
 
 function setNeonTheme() {
@@ -38,9 +42,22 @@ function setNeonTheme() {
     document.getElementById("img-3").src = "./assets/images/neon-theme/jordan-mcdonald-xLG3BBiuT1Q-unsplash.jpg";
     document.getElementById("img-4").src = "./assets/images/neon-theme/dose-juice-Zvha13RXnZY-unsplash.jpg";
     document.getElementById("img-5").src = "./assets/images/neon-theme/asterisk-kwon-q_gjDWf9ths-unsplash.jpg";
+
+    localStorage.setItem('theme', 'neon');
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    const theme = localStorage.getItem('theme');
+        if (theme === 'light') {
+            setLigthTheme();
+        }
+        else if (theme === 'dark') {
+            setDarkTheme();
+        }
+        else if (theme === 'neon') {
+            setNeonTheme();
+        }
+
     document.getElementById("ligth-theme-switch").onclick = () => {
         setLigthTheme();
     }

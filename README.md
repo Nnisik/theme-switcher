@@ -15,7 +15,7 @@ Stress releaf and consentration boost advises web page with different themes.
 * HTML
 * Sass
 * JavaScript
-* CSS
+* TypeScript
 
 ## Getting Started
 To get a local copy of this project up and running, follow these steps:
@@ -37,13 +37,19 @@ To get a local copy of this project up and running, follow these steps:
     │   └── images/  
     │   │   ├── dark-theme/
     │   │   ├── light-theme/
-    │   │   └── neon-theme/           
+    │   │   └── neon-theme/   
+    ├── dist/                           
+    │   └── index.js              # JavaScript code generated from TypeScript code       
+    ├── node_modules/                      
     ├── src/
     │   ├── js/      
     │   │   └── index.js
-    │   └── style/  
+    │   ├── json/      
+    │   ├──  style/  
     │   │   ├── main-style/
     │   │   └── mobile-style/     # Styles for the website (including light/dark themes)
+    │   ├── ts/
+    │   │   └── index.ts 
     ├── index.html                # The main HTML file
     └── README.md
 
