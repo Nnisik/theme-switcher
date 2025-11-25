@@ -45,7 +45,7 @@ To get a local copy of this project up and running, follow these steps:
     │   ├── js/      
     │   │   └── index.js
     │   ├── json/      
-    │   ├──  style/  
+    │   ├── style/  
     │   │   ├── main-style/
     │   │   └── mobile-style/     # Styles for the website (including light/dark themes)
     │   ├── ts/
@@ -57,7 +57,8 @@ To get a local copy of this project up and running, follow these steps:
 ### Todo
 * set default page theme based on system theme
 * optimise theme switching (reduse loading time)
-* speed up theme changing 
+* speed up theme changing
+* update README sections
 
 ### Issues
 *currently everything is fixed
