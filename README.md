@@ -55,7 +55,6 @@ To get a local copy of this project up and running, follow these steps:
 
 
 ### Todo
-* remember currently selected theme after reloading page
 * set default page theme based on system theme
 * optimise theme switching (reduse loading time)
 * speed up theme changing 
