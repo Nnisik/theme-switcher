@@ -4,6 +4,7 @@ Stress releaf and consentration boost advises web page with different themes.
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
@@ -40,25 +41,27 @@ To get a local copy of this project up and running, follow these steps:
     │   │   └── neon-theme/   
     ├── dist/                           
     │   └── index.js              # JavaScript code generated from TypeScript code       
+    ├── public/                           
+    │   └── json/  
+    │   │   └── data-themes.json                   
     ├── node_modules/                      
     ├── src/
     │   ├── js/      
-    │   │   └── index.js
-    │   ├── json/      
+    │   │   └── index.js 
     │   ├── style/  
     │   │   ├── main-style/
     │   │   └── mobile-style/     # Styles for the website (including light/dark themes)
     │   ├── ts/
     │   │   └── index.ts 
+    ├── .gitignore                
     ├── index.html                # The main HTML file
-    └── README.md
+    ├── package-lock.json                
+    ├── README.md                
+    └── tsconfig.json
 
 
 ### Todo
-* set default page theme based on system theme
-* optimise theme switching (reduse loading time)
-* speed up theme changing
-* update README sections
+*no new ideas so far
 
 ### Issues
 *currently everything is fixed
