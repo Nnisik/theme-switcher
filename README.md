@@ -64,4 +64,5 @@ To get a local copy of this project up and running, follow these steps:
 *no new ideas so far
 
 ### Issues
-*currently everything is fixed
+* demo on Github Pages doesn't have styles
+* demo on GitHub Pages doesn't have images 
